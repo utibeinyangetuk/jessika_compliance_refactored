@@ -46,20 +46,10 @@ const app=Vue.createApp({
 					this.purpose *
 					this.control *
 					this.derivatives)
-
 					// Final data computations
 				this.userdata = result;
 				this.userdata2 = result ** (1 / 9);
-
-				console.log("Final result: ", this.userdata2);
-				console.log(this.equity);
-				console.log(this.decentralization);
-				console.log(this.participation);
-				console.log(this.investment);
-				console.log(this.utility);
-				console.log(this.purpose);
-				console.log(this.control);
-				console.log(this.derivatives);
+				console.log("Final result: ", this.userdata2)
 			},
 		},
 })
