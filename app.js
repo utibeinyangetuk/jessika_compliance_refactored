@@ -37,7 +37,7 @@ const app=Vue.createApp({
 		},
 		methods: {
 			calculate() {
-				const result =
+				const result =(
 					this.equity *
 					this.decentralization *
 					this.participation *
@@ -45,8 +45,9 @@ const app=Vue.createApp({
 					this.utility *
 					this.purpose *
 					this.control *
-					this.derivatives;
+					this.derivatives)
 
+					// Final data computations
 				this.userdata = result;
 				this.userdata2 = result ** (1 / 9);
 
